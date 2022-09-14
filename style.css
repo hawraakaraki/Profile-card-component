@@ -21,18 +21,16 @@ body {
         justify-content: center;
         flex-direction: column;
         min-height: 100vh;
-        font-size: 18px;
         background: url(./images/bg-pattern-top.svg) , url(./images/bg-pattern-bottom.svg);
-        background-position: left -300px top -500px ,right -300px bottom -600px ;
+        background-position: left -400px top -500px ,right -400px bottom -600px ;
         background-repeat: no-repeat;
         background-color: var(--Dark-cyan);
-    
 
 }
 .container {
     background-color: hsl(0, 0%, 100%);
     text-align: center;
-    width: 300px;
+    width: 375px;
     border-radius: 15px;
 }
 .upper-container {
@@ -47,7 +45,7 @@ body {
 .upper-container .image-victor {
 width: 80px;
 border-radius: 50%;
-margin: -50%  auto ;
+margin: -40%  auto ;
 border: 5px solid white;
 }
 .body-card {
